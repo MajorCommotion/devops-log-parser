@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Reports
+*.txt
+*.json
+!examples/*.log
+!examples/*.json
+report-*
+analysis-*
+
+# Logs
+*.log
+*.log.*
+test-logs/
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
